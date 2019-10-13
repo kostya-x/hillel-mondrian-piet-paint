@@ -2,9 +2,13 @@ body {
   margin: 0;
 }
 
+.modrian-paint-wrapper {
+  background-color: pink;
+}
+
 .modrian-paint {
-  min-width: fit-content;
   min-height: 100vh;
+  overflow: auto;
   display: grid;
   justify-content: center;
   align-content: center;
