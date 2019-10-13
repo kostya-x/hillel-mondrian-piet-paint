@@ -8,12 +8,11 @@ body {
 
 .modrian-paint {
   min-height: 100vh;
-  overflow: auto;
   display: grid;
   justify-content: center;
   align-content: center;
-  grid-template-columns: repeat(100, 7px);
-  grid-template-rows: repeat(71, 7px);
+  grid-template-columns: repeat(100, 1fr);
+  grid-template-rows: repeat(71, 1fr);
   background-color: #000000;
 }
 
